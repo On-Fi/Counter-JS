@@ -17,8 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     decreaseButton.addEventListener('click', function () {
-        count--;
-        updateCounter();
+        if (count > 0) {
+            count--;
+            updateCounter();
+        }
     });
 
     function updateCounter() {
