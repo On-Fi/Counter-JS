@@ -1,2 +1,2 @@
-# Counter-JS
+# Counter
  
