@@ -32,9 +32,9 @@ h2 {
     cursor: default;
     font-size: 5rem;
 }
+
 .button-container {
     display: flex;
-    background-color: #474747;
     gap: 10px;
 }
 
@@ -52,4 +52,6 @@ h2 {
 .button:hover {
     background-color: #838383;
     color: #fbfbfb;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
